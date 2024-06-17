@@ -44,7 +44,63 @@
 
       $txt = $fname . " " . $lname . " has submitted a form on the CCD Church Planting website. <br><br>  ******************************************************************** <br>" . "Phone: " . $phone . "<br>" . "Email: " . $from . "<br>" . "Community: " . $community . "<br>" . "People Group: " . $peopleg . "<br>" . "Style: " . $style . "<br>" . "Model: " . $model . "<br>" . "Description: " . $descriptions . "<br>";
 
-      $txt2 = $fname . ", <br>" . "Thank you for sharing your idea with the CCD Church Planting team. <br><br> Here is a link to your free online web-training course: <br> https://ccdnaz.org/go-somewhere-on-the-website";
+      $txt2 = "
+      
+                  <!DOCTYPE html>
+                  <html lang='en'>
+                  <head>
+                      <meta charset='UTF-8'>
+                      <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+                  </head>
+                  <body style='font-family: 'Arial'; background-color: black;'>
+                      <div id='container' style='background-color: rgb(24, 24, 24); max-width: 800px; color: white; text-align: center; padding: 10px 0px 100px 0px;'>
+                          <div id='top' style=' background-color: #0081b8;'>
+                              <h1 style='font-size: clamp(22px, 4vw, 28px); padding: 5px; margin: 0px;'> CCD Church Planting </h1>
+                          </div>
+
+                          <!-- <img src='http://msparenti.com/CCDCP/celebration.jpg' style='width: 100%;' alt=''> -->
+                          <div style='width: 100%; height: 300px; overflow: hidden;'><img src='celebration.jpg' style='width: 100%; height: 100%; object-fit: cover; ' alt=''></div>
+
+                          <div id='middle'>
+
+                              <h1 style='font-size: clamp(22px, 4vw, 32px); padding: 30px 0px;'>CONGRATULATIONS!</h1>
+
+                              <div id='inner' style='border-top: solid #0081b8 3px; border-bottom: solid #0081b8 3px; width: 80%; margin: auto; padding: 50px 0px;'>
+                                  <p>
+                                      Thank you for submitting your church plant idea and congratulations on taking the first step in the process of reaching a new community for Jesus!
+                                      <br>
+                                      <br>
+                                      Below is a link that will take you to a series of videos and worksheets for the web-based church planting training. You may work your way through the series at your own pace.
+                                      <br>
+                                      <br>
+                                      Soon, someone will reach out to you to help you get connected to a coach/mentor and our network of church planters.
+                                      <br>
+                                      <br>
+                                      May God bless you on this journey of reaching more people with the good news of Jesus Christ.
+                                  </p>
+
+                                  <p style='padding-top: 50px; text-align: left;'>
+                                      Joyful Blessings,
+                                      <br>
+                                      <br>
+                                      The District Ministry Strategy Team
+                                      <br>
+                                      Chicago Central District Church of the Nazarene
+                                  </p>                
+                              </div>
+
+                          </div>
+
+                          <h2 style='padding: 30px 0px;'>Web-Based Church Planting Training</h2>
+
+                          <a href='msparenti.com/CCDCP/training.html' style='text-decoration: none; background-color: #0081b8; border-radius: 50px; color: white; padding: 20px; font-weight: bold;'>Click Here</a>
+
+                      </div>
+
+                  </body>
+                  </html>
+      
+      ";
       
       
       
