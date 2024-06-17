@@ -69,16 +69,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
+    <script src="nav.js" defer></script>
 </head>
 <body>   
     
-    <a href="index.html"><h1 id="nav_h1">Church Planting</h1></a>
+<a href="index.php"><h1 id="nav_h1">Church Planting</h1></a>
     <nav>
         <img src="CCD_logo_white.png" alt="">
 
         <h1></h1>
 
-        <ul>
+        <img id="menu" src="hamburger-menu.png" alt="">
+        <ul id="ul">
+            <a href="http://">5 Stages</a>
+            <a href="http://">FAQs</a>
+            <a href="http://">Connect</a>
+        </ul>
+        <ul id="ul2">
             <a href="http://">5 Stages</a>
             <a href="http://">FAQs</a>
             <a href="http://">Connect</a>
