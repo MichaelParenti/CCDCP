@@ -42,7 +42,7 @@
 
       $headers2 = "From:" . $to;
 
-      $txt = $fname . " " . $lname . " has submitted a form on the CCD Church Planting website. <br><br>  ******************************************************************** <br>" . "Phone: " . $phone . "<br>" . "Community: " . $community . "<br>" . "People Group: " . $peopleg . "<br>" . "Style: " . $style . "<br>" . "Model: " . $model . "<br>" . "Description: " . $descriptions . "<br>";
+      $txt = $fname . " " . $lname . " has submitted a form on the CCD Church Planting website. <br><br>  ******************************************************************** <br>" . "Phone: " . $phone . "<br>" . "Email: " . $from . "<br>" . "Community: " . $community . "<br>" . "People Group: " . $peopleg . "<br>" . "Style: " . $style . "<br>" . "Model: " . $model . "<br>" . "Description: " . $descriptions . "<br>";
 
       $txt2 = $fname . ", <br>" . "Thank you for sharing your idea with the CCD Church Planting team. <br><br> Here is a link to your free online web-training course: <br> https://ccdnaz.org/go-somewhere-on-the-website";
       
@@ -562,7 +562,7 @@
                 </div>
 
                 <div class="formbold-input-flex-submit">
-                    <button class="formbold-btn" action="submit" name="submit">Register Now</button>
+                    <button class="formbold-btn" action="submit" name="submit">Submit</button>
                 </div>
 
                 <?php
