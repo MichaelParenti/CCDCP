@@ -53,13 +53,13 @@
                       <meta name='viewport' content='width=device-width, initial-scale=1.0'>
                   </head>
                   <body style='font-family: 'Arial'; background-color: black;'>
-                      <div id='container' style='background-color: rgb(24, 24, 24); max-width: 800px; color: white; text-align: center; padding: 10px 0px 100px 0px;'>
+                      <div id='container' style='background-color: rgb(24, 24, 24); max-width: 1400px; color: white; text-align: center; padding: 10px 0px 100px 0px;'>
                           <div id='top' style=' background-color: #0081b8;'>
                               <h1 style='font-size: clamp(22px, 4vw, 28px); padding: 5px; margin: 0px;'> CCD Church Planting </h1>
                           </div>
 
                           <!-- <img src='http://msparenti.com/CCDCP/celebration.jpg' style='width: 100%;' alt=''> -->
-                          <div style='width: 100%; height: 300px; overflow: hidden;'><img src='celebration.jpg' style='width: 100%; height: 100%; object-fit: cover; ' alt=''></div>
+                          <div style='width: 100%; height: 400px; overflow: hidden;'><img src='celebration.jpg' style='width: 100%; height: 100%; object-fit: cover; ' alt=''></div>
 
                           <div id='middle'>
 
