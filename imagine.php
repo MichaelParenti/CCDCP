@@ -459,7 +459,7 @@
                 <div class="other-card">
                     <div id="other-card-inner-seven">
                         <div id="front">
-                            <img src="Icons/Church Within a Church (official).png" alt="">
+                            <img src="Icons/Church within a Church (official).png" alt="">
                             <h2>Church within a Church</h2>
                             <button onclick="flip7()">Learn More</button>
                         </div>
