@@ -126,6 +126,7 @@
     <link rel="stylesheet" href="imagine.css">
     <link rel="stylesheet" href="nav.css">
     <script src="nav.js" defer></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"/>
 </head>
 <body>
 
