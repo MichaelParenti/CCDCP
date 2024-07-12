@@ -140,7 +140,7 @@
         <img id="menu" src="hamburger-menu.png" alt="">
         <ul id="ul">
             <div class="dropdown">
-                <button onclick="toggleDropdown()" class="dropbtn">5 Stages</button>
+                <button class="dropbtn">5 Stages</button>
                 <div id="myDropdown" class="dropdown-content">
                   <a href="http://msparenti.com/CCDCP/imagine.php">Imagine</a>
                   <a href="http://msparenti.com/CCDCP/cultivate.php">Cultivate</a>

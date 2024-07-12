@@ -61,3 +61,5 @@ window.onclick = function(event) {
 document.getElementById('close').addEventListener('click', () => {
     ul.style.display = 'none';
 });
+
+document.querySelector('.dropbtn').addEventListener('click', toggleDropdown());
