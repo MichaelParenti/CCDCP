@@ -388,5 +388,24 @@
 
 
     </section>
+
+
+    <script>
+      document.getElementById('one').onclick = () => {
+        document.location.href = "http://msparenti.com/CCDCP/imagine.php";
+      }
+      document.getElementById('two').onclick = () => {
+        document.location.href = "http://msparenti.com/CCDCP/cultivate.php";
+      }
+      document.getElementById('three').onclick = () => {
+        document.location.href = "http://msparenti.com/CCDCP/create.php";
+      }
+      document.getElementById('four').onclick = () => {
+        document.location.href = "http://msparenti.com/CCDCP/build.php";
+      }
+      document.getElementById('five').onclick = () => {
+        document.location.href = "http://msparenti.com/CCDCP/launch.php";
+      }
+    </script>
 </body>
 </html>
