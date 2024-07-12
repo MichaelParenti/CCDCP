@@ -125,6 +125,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
     <script src="nav.js" defer></script>
 </head>
 <body>   
@@ -137,14 +138,34 @@
 
         <img id="menu" src="hamburger-menu.png" alt="">
         <ul id="ul">
-            <a href="http://">5 Stages</a>
-            <a href="http://">FAQs</a>
-            <a href="http://">Connect</a>
+            <div class="dropdown">
+                <button onclick="toggleDropdown()" class="dropbtn">5 Stages</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="http://msparenti.com/CCDCP/imagine.php">Imagine</a>
+                  <a href="http://msparenti.com/CCDCP/cultivate.php">Cultivate</a>
+                  <a href="http://msparenti.com/CCDCP/create.php">Create</a>
+                  <a href="http://msparenti.com/CCDCP/build.php">Build</a>
+                  <a href="http://msparenti.com/CCDCP/launch.php">Launch</a>
+                </div>
+              </div>
+            <a href="http://msparenti.com/CCDCP/faqs.php">FAQs</a>
+            <a href="http://msparenti.com/CCDCP/connect.php">Connect</a>
         </ul>
         <ul id="ul2">
-            <a href="http://">5 Stages</a>
-            <a href="http://">FAQs</a>
-            <a href="http://">Connect</a>
+            <span id="close">X</span>
+            <a href="http://msparenti.com/CCDCP/index.php">Home</a>
+            <div id="stages">
+                <label>5 Stages</label>
+                <div id="list">
+                    <a class="list" href="http://msparenti.com/CCDCP/imagine.php">Imagine</a>
+                    <a class="list" href="http://msparenti.com/CCDCP/cultivate.php">Cultivate</a>
+                    <a class="list" href="http://msparenti.com/CCDCP/create.php">Create</a>
+                    <a class="list" href="http://msparenti.com/CCDCP/build.php">Build</a>
+                    <a class="list" href="http://msparenti.com/CCDCP/launch.php">Launch</a>
+                </div>
+            </div>
+            <a href="http://msparenti.com/CCDCP/faqs.php">FAQs</a>
+            <a href="http://msparenti.com/CCDCP/connect.php">Connect</a>
         </ul>
     </nav>
     
