@@ -10,19 +10,119 @@ body{
 
 
 
-
+#img-container{
+    object-fit: cover;
+    max-height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
 #head-pic {
+    /* width: 100vw; */
+    flex-shrink: 0;
     width: 100vw;
     height: auto;
     opacity: 0.3;
 }
-#create {
-    /* background: rgba(0, 0, 0, 0.75); */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 20px 50px;
+
+
+
+
+
+#title {
+    color: white;
     font-size: 4rem;
+    text-align: center;
+    width: 100%;
+}
+#some-text {
+    font-size: clamp(14px, 8vw, 32px);
+    text-align: center;
 }
 
+
+
+
+
+section {
+    display: flex;
+    height: fit-content;
+}
+#left {
+    width: 50vw;
+    height: 170vh;
+    padding: 50px;
+    /* position: relative; */
+    /* height: min-content; */
+    position: relative;
+    /* overflow-y: auto; */
+}
+#left-inner {
+    position: relative;
+    top: 0px;
+    /* height: min-content; */
+}
+#left-inner > h2:nth-child(6) {
+    margin-bottom: 0px;
+}
+#left h2{
+    color: white;
+    font-size: 2.5rem;
+}
+#left h2 span {
+    font-size: 5rem;
+    padding: 10px;
+}
+@media only screen and (max-width: 1250px){
+    #left h2{
+        font-size: 2rem;
+    }
+    #left h2 span{
+        font-size: 4rem;
+    }
+}
+@media only screen and (max-width: 1075px){
+    #left h2{
+        font-size: 1.5rem;
+    }
+    #left h2 span{
+        font-size: 3rem;
+    }
+}
+
+#right {
+    width: 50vw;
+    padding: 50px;
+    /* height: 100vh; */
+    /* overflow: scroll; */
+}
+#right .panel {
+    padding: 25px;
+    border: solid 3px #0081b8;
+    color: white;
+    border-radius: 25px;
+    margin: 50px 0px;
+}
+#right .panel h3 {
+    color: #0081b8;
+    font-size: xx-large;
+    margin-top: 0px;
+}
+#right .panel ul li {
+    font-size: large;
+}
+@media only screen and (max-width: 850px){
+    #left {
+        height: fit-content;
+        width: 80vw;
+    }
+    #right {
+        width: 80vw;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+}

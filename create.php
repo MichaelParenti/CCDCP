@@ -1,3 +1,122 @@
+<?php require("script.php"); ?>
+
+<?php
+
+  if (isset($_POST['submit'])) {
+
+    if(empty($_POST['firstname']) || empty($_POST['lastname']) || empty($_POST['email']) || empty($_POST['phone']) || empty($_POST['community']) || empty($_POST['peopleg']) || empty($_POST['style']) || empty($_POST['model']) || empty($_POST['descriptions']) ){
+
+      $response = "All fields are required.";
+
+    } else {
+
+      $fname = $_POST['firstname'];
+
+      $lname = $_POST['lastname'];
+
+      $from = $_POST['email'];
+
+      $phone = $_POST['phone'];
+
+      $community = $_POST['community'];
+
+      $peopleg = $_POST['peopleg'];
+
+      $style = $_POST['style'];
+
+      $model = $_POST['model'];
+
+      $descriptions = $_POST['descriptions'];
+
+
+
+
+
+      $to = "msparentijr@gmail.com";
+      
+      $subject = "Form Submission - Church Planting";
+
+      $subject2 = "Free Online Course!";
+
+      $headers = "From: " . $from;
+
+      $headers2 = "From:" . $to;
+
+      $txt = $fname . " " . $lname . " has submitted a form on the CCD Church Planting website. <br><br>  ******************************************************************** <br>" . "Phone: " . $phone . "<br>" . "Email: " . $from . "<br>" . "Community: " . $community . "<br>" . "People Group: " . $peopleg . "<br>" . "Style: " . $style . "<br>" . "Model: " . $model . "<br>" . "Description: " . $descriptions . "<br>";
+
+      $txt2 = "
+      
+                  <!DOCTYPE html>
+                  <html lang='en'>
+                  <head>
+                      <meta charset='UTF-8'>
+                      <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+                  </head>
+                  <body style='font-family: 'Arial'; background-color: black;'>
+                      <div id='container' style='background-color: rgb(24, 24, 24); max-width: 1400px; color: white; text-align: center; padding: 10px 0px 100px 0px;'>
+                          <div id='top' style=' background-color: #0081b8;'>
+                              <h1 style='font-size: clamp(22px, 4vw, 28px); padding: 5px; margin: 0px;'> CCD Church Planting </h1>
+                          </div>
+
+                          <!-- <img src='http://msparenti.com/CCDCP/celebration.jpg' style='width: 100%;' alt=''> -->
+                          <div style='width: 100%; height: 400px; overflow: hidden;'><img src='http://msparenti.com/CCDCP/celebration.jpg' style='width: 100%; height: 100%; object-fit: cover; ' alt=''></div>
+
+                          <div id='middle'>
+
+                              <h1 style='font-size: clamp(22px, 4vw, 32px); padding: 30px 0px;'>CONGRATULATIONS!</h1>
+
+                              <div id='inner' style='border-top: solid #0081b8 3px; border-bottom: solid #0081b8 3px; width: 80%; margin: auto; padding: 50px 0px;'>
+                                  <p>
+                                      Thank you for submitting your church plant idea and congratulations on taking the first step in the process of reaching a new community for Jesus!
+                                      <br>
+                                      <br>
+                                      Below is a link that will take you to a series of videos and worksheets for the web-based church planting training. You may work your way through the series at your own pace.
+                                      <br>
+                                      <br>
+                                      Soon, someone will reach out to you to help you get connected to a coach/mentor and our network of church planters.
+                                      <br>
+                                      <br>
+                                      May God bless you on this journey of reaching more people with the good news of Jesus Christ.
+                                  </p>
+
+                                  <p style='padding-top: 50px; text-align: left;'>
+                                      Joyful Blessings,
+                                      <br>
+                                      <br>
+                                      The District Ministry Strategy Team
+                                      <br>
+                                      Chicago Central District Church of the Nazarene
+                                  </p>                
+                              </div>
+
+                          </div>
+
+                          <h2 style='padding: 30px 0px;'>Web-Based Church Planting Training</h2>
+
+                          <a href='msparenti.com/CCDCP/training.html' style='text-decoration: none; background-color: #0081b8; border-radius: 50px; color: white; padding: 20px; font-weight: bold;'>Click Here</a>
+
+                      </div>
+
+                  </body>
+                  </html>
+      
+      ";
+      
+      
+      
+        sendMail($to, $subject, $txt, $headers);
+
+        sendMail($from, $subject2, $txt2, $headers2);
+
+        echo "Thank you, " . $fname . "We will contact you shortly. <br> Please check your email for your free access to the CCD Church Planting Web-Training Course.";
+      
+        // header("Location http://msparenti.com/CCDCP/index.html");
+    }
+  }
+ 
+?>
+
+
 
 
 
@@ -10,6 +129,7 @@
     <link rel="stylesheet" href="create.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="form.css">
+    <script src="paralax.js" defer></script>
     <script src="nav.js" defer></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"/>
 </head>
@@ -56,9 +176,99 @@
     </nav>
 
 
-    <img id="head-pic" src="images/Create pic.jpg">
-        <h1 id="create" >Create</h1>
-    </img>
+    <div id="img-container">
+      <img id="head-pic" src="images/Create pic.jpg">
+    </div>
+
+
+
+    <h1 id="title">Create</h1>
+
+    <p id="some-text">
+      Going through the “cultivate” process will prepare a church planter to CREATE an action plan.
+      <br>
+      He/she will receive a guide to walk through the creation process.
+      <br>
+      The action plan includes the following:
+    </p>
+
+
+
+    <section>
+
+      <div id="left">
+        <div id="left-inner">
+          <h2><span>C</span>hurch Details</h2>
+          <h2><span>R</span>esearch Demographics</h2>
+          <h2><span>E</span>nvision Church Culture</h2>
+          <h2><span>A</span>ssemble Systems</h2>
+          <h2><span>T</span>eam Building</h2>
+          <h2><span>E</span>ngage Community</h2>
+        </div>
+      </div>
+
+      <div id="right">
+        <div class="panel">
+          <h3>Church Details</h3>
+          <ul>
+            <li>Name, Location, Times</li>
+            <li>Style, Model, Support</li>
+            <li>Format of Services</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>Research Demographics</h3>
+          <ul>
+            <li>Rural, Suburban, Urban</li>
+            <li>Economic, Racial, Education, Age, etc. of Population</li>
+            <li>Targeted People Group</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>Envision Church Culture</h3>
+          <ul>
+            <li>Vision Statement</li>
+            <li>Culture Statement</li>
+            <li>Culture of Evangelism</li>
+            <li>Culture of Leadership</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>Assemble Systems</h3>
+          <ul>
+            <li>Guest Follow-Up</li>
+            <li>Volunteer Recruitment and Training</li>
+            <li>Leadership Development</li>
+            <li>Giving and Finances</li>
+            <li>Evangelism and Outreach</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>Team Building</h3>
+          <ul>
+            <li>Recruiting</li>
+            <li>Vision Casting</li>
+            <li>Training</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>Engage Community</h3>
+          <ul>
+            <li>Social Media</li>
+            <li>Face-to-Face Interactions</li>
+            <li>Events</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
 
     
     <section id="form-section">
