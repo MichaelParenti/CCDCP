@@ -120,308 +120,277 @@
 
 
 
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create</title>
-    <link rel="stylesheet" href="create.css">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="form.css">
-    <script src="paralax.js" defer></script>
-    <script src="nav.js" defer></script>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create</title>
+  <link rel="stylesheet" href="create.css">
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="form.css">
+  <!-- <script src="paralax.js" defer></script> -->
+  <script src="nav.js" defer></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 </head>
+
 <body>
 
 
-    <a href="index.php"><h1 id="nav_h1">Church Planting</h1></a>
-    <nav>
-        <img src="CCD_logo_white.png" alt="">
+  <a href="index.php">
+    <h1 id="nav_h1">Church Planting</h1>
+  </a>
+  <nav>
+    <img src="CCD_logo_white.png" alt="">
 
-        <h1></h1>
+    <h1></h1>
 
-        <img id="menu" src="hamburger-menu.png" alt="">
-        <ul id="ul">
-            <div class="dropdown">
-                <button class="dropbtn">5 Stages</button>
-                <div id="myDropdown" class="dropdown-content">
-                  <a href="http://msparenti.com/CCDCP/imagine.php">Imagine</a>
-                  <a href="http://msparenti.com/CCDCP/cultivate.php">Cultivate</a>
-                  <a href="http://msparenti.com/CCDCP/create.php">Create</a>
-                  <a href="http://msparenti.com/CCDCP/build.php">Build</a>
-                  <a href="http://msparenti.com/CCDCP/launch.php">Launch</a>
-                </div>
-              </div>
-            <a href="http://msparenti.com/CCDCP/faqs.php">FAQs</a>
-            <a href="http://msparenti.com/CCDCP/connect.php">Connect</a>
+    <img id="menu" src="hamburger-menu.png" alt="">
+    <ul id="ul">
+      <div class="dropdown">
+        <button class="dropbtn">5 Stages</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="http://msparenti.com/CCDCP/imagine.php">Imagine</a>
+          <a href="http://msparenti.com/CCDCP/cultivate.php">Cultivate</a>
+          <a href="http://msparenti.com/CCDCP/create.php">Create</a>
+          <a href="http://msparenti.com/CCDCP/build.php">Build</a>
+          <a href="http://msparenti.com/CCDCP/launch.php">Launch</a>
+        </div>
+      </div>
+      <a href="http://msparenti.com/CCDCP/faqs.php">FAQs</a>
+      <a href="http://msparenti.com/CCDCP/connect.php">Connect</a>
+    </ul>
+    <ul id="ul2">
+      <span id="close">X</span>
+      <a href="http://msparenti.com/CCDCP/index.php">Home</a>
+      <div id="stages">
+        <label>5 Stages</label>
+        <div id="list">
+          <a class="list" href="http://msparenti.com/CCDCP/imagine.php">Imagine</a>
+          <a class="list" href="http://msparenti.com/CCDCP/cultivate.php">Cultivate</a>
+          <a class="list" href="http://msparenti.com/CCDCP/create.php">Create</a>
+          <a class="list" href="http://msparenti.com/CCDCP/build.php">Build</a>
+          <a class="list" href="http://msparenti.com/CCDCP/launch.php">Launch</a>
+        </div>
+      </div>
+      <a href="http://msparenti.com/CCDCP/faqs.php">FAQs</a>
+      <a href="http://msparenti.com/CCDCP/connect.php">Connect</a>
+    </ul>
+  </nav>
+
+
+  <div id="img-container">
+    <img id="head-pic" src="images/Create pic.jpg">
+  </div>
+
+
+
+  <h1 id="title">Create</h1>
+
+  <p id="some-text">
+    Going through the “cultivate” process will prepare a church planter to CREATE an action plan.
+    <br>
+    He/she will receive a guide to walk through the creation process.
+    <br>
+    The action plan includes the following:
+  </p>
+
+
+
+  <section>
+
+    <div class="panel">
+      <div id="left">
+        <h2><span>C</span>hurch Details</h2>
+      </div>
+      <div id="right">
+        <ul>
+          <li>Name, Location, Times</li>
+          <li>Style, Model, Support</li>
+          <li>Format of Services</li>
         </ul>
-        <ul id="ul2">
-            <span id="close">X</span>
-            <a href="http://msparenti.com/CCDCP/index.php">Home</a>
-            <div id="stages">
-                <label>5 Stages</label>
-                <div id="list">
-                    <a class="list" href="http://msparenti.com/CCDCP/imagine.php">Imagine</a>
-                    <a class="list" href="http://msparenti.com/CCDCP/cultivate.php">Cultivate</a>
-                    <a class="list" href="http://msparenti.com/CCDCP/create.php">Create</a>
-                    <a class="list" href="http://msparenti.com/CCDCP/build.php">Build</a>
-                    <a class="list" href="http://msparenti.com/CCDCP/launch.php">Launch</a>
-                </div>
-            </div>
-            <a href="http://msparenti.com/CCDCP/faqs.php">FAQs</a>
-            <a href="http://msparenti.com/CCDCP/connect.php">Connect</a>
+      </div>
+    </div>
+    <div class="panel">
+      <div id="left">
+        <h2><span>R</span>esearch Demographics</h2>
+      </div>
+      <div id="right">
+        <ul>
+          <li>Rural, Suburban, Urban</li>
+          <li>Economic, Racial, Education, Age, etc. of Population</li>
+          <li>Targeted People Group</li>
         </ul>
-    </nav>
-
-
-    <div id="img-container">
-      <img id="head-pic" src="images/Create pic.jpg">
+      </div>
+    </div>
+    <div class="panel">
+      <div id="left">
+        <h2><span>E</span>nvision Church Culture</h2>
+      </div>
+      <div id="right">
+        <ul>
+          <li>Vision Statement</li>
+          <li>Culture Statement</li>
+          <li>Culture of Evangelism</li>
+          <li>Culture of Leadership</li>
+        </ul>
+      </div>
+    </div>
+    <div class="panel">
+      <div id="left">
+        <h2><span>A</span>ssemble Systems</h2>
+      </div>
+      <div id="right">
+        <ul>
+          <li>Guest Follow-Up</li>
+          <li>Volunteer Recruitment and Training</li>
+          <li>Leadership Development</li>
+          <li>Giving and Finances</li>
+          <li>Evangelism and Outreach</li>
+        </ul>
+      </div>
+    </div>
+    <div class="panel">
+      <div id="left">
+        <h2><span>T</span>eam Building</h2>
+      </div>
+      <div id="right">
+        <ul>
+          <li>Recruiting</li>
+          <li>Vision Casting</li>
+          <li>Training</li>
+        </ul>
+      </div>
+    </div>
+    <div class="panel">
+      <div id="left">
+        <h2><span>E</span>ngage Community</h2>
+      </div>
+      <div id="right">
+        <ul>
+          <li>Social Media</li>
+          <li>Face-to-Face Interactions</li>
+          <li>Events</li>
+        </ul>
+      </div>
     </div>
 
 
-
-    <h1 id="title">Create</h1>
-
-    <p id="some-text">
-      Going through the “cultivate” process will prepare a church planter to CREATE an action plan.
-      <br>
-      He/she will receive a guide to walk through the creation process.
-      <br>
-      The action plan includes the following:
-    </p>
+  </section>
 
 
 
-    <section>
 
-      <div id="left">
-        <div id="left-inner">
-          <h2><span>C</span>hurch Details</h2>
-          <h2><span>R</span>esearch Demographics</h2>
-          <h2><span>E</span>nvision Church Culture</h2>
-          <h2><span>A</span>ssemble Systems</h2>
-          <h2><span>T</span>eam Building</h2>
-          <h2><span>E</span>ngage Community</h2>
+
+
+
+
+
+
+  <section id="form-section">
+    <div class="formbold-main-wrapper">
+      <form action="" method="POST" enctype="multipart/form-data">
+        <div class="formbold-form-title">
+          <h2 class="">Share Your Idea</h2>
+          <p>
+            Fill out this form to share your idea and get the process started.
+            <br>
+            Someone will reach out to you soon to help you begin cultivating what you need to know and answer your
+            questions.
+          </p>
         </div>
-      </div>
 
-      <div id="right">
-        <div class="panel">
-          <h3>Church Details</h3>
-          <ul>
-            <li>Name, Location, Times</li>
-            <li>Style, Model, Support</li>
-            <li>Format of Services</li>
-          </ul>
+        <div class="formbold-input-flex">
+          <div>
+            <label for="firstname" class="formbold-form-label">
+              First Name
+            </label>
+            <input required="true" type="text" name="firstname" id="firstname" class="formbold-form-input" />
+          </div>
+          <div>
+            <label for="lastname" class="formbold-form-label"> Last Name </label>
+            <input required="true" type="text" name="lastname" id="lastname" class="formbold-form-input" />
+          </div>
         </div>
-        <div class="panel">
-          <h3>Research Demographics</h3>
-          <ul>
-            <li>Rural, Suburban, Urban</li>
-            <li>Economic, Racial, Education, Age, etc. of Population</li>
-            <li>Targeted People Group</li>
-          </ul>
+
+        <div class="formbold-input-flex">
+          <div>
+            <label for="email" class="formbold-form-label"> Email </label>
+            <input required="true" type="email" name="email" id="email" class="formbold-form-input" />
+          </div>
+          <div>
+            <label for="phone" class="formbold-form-label"> Phone Number </label>
+            <input required="true" type="text" name="phone" id="phone" class="formbold-form-input" />
+          </div>
         </div>
-        <div class="panel">
-          <h3>Envision Church Culture</h3>
-          <ul>
-            <li>Vision Statement</li>
-            <li>Culture Statement</li>
-            <li>Culture of Evangelism</li>
-            <li>Culture of Leadership</li>
-          </ul>
+
+        <div class="formbold-mb-3">
+          <label for="community" class="formbold-form-label">
+            Target Community
+          </label>
+          <input required="true" type="text" name="community" id="community" class="formbold-form-input" />
         </div>
-        <div class="panel">
-          <h3>Assemble Systems</h3>
-          <ul>
-            <li>Guest Follow-Up</li>
-            <li>Volunteer Recruitment and Training</li>
-            <li>Leadership Development</li>
-            <li>Giving and Finances</li>
-            <li>Evangelism and Outreach</li>
-          </ul>
+
+        <div class="formbold-mb-3">
+          <label for="peopleg" class="formbold-form-label">
+            Target People Group
+          </label>
+          <input required="true" type="text" name="peopleg" id="peopleg" class="formbold-form-input" />
         </div>
-        <div class="panel">
-          <h3>Team Building</h3>
-          <ul>
-            <li>Recruiting</li>
-            <li>Vision Casting</li>
-            <li>Training</li>
-          </ul>
+
+        <div class="formbold-input-flex">
+          <div>
+            <label for="style" class="formbold-form-label"> Style </label>
+            <input required="true" type="text" name="style" id="style" class="formbold-form-input"
+              placeholder="Coffee, Sports, etc." />
+          </div>
+          <div>
+            <label for="model" class="formbold-form-label"> Model </label>
+            <input required="true" type="text" name="model" id="model" class="formbold-form-input"
+              placeholder="Traditional, House, etc." />
+          </div>
         </div>
-        <div class="panel">
-          <h3>Engage Community</h3>
-          <ul>
-            <li>Social Media</li>
-            <li>Face-to-Face Interactions</li>
-            <li>Events</li>
-          </ul>
+
+        <div class="formbold-input-flex-last">
+          <label for="descriptions" class="formbold-form-label"> Description </label>
+          <textarea required="true" type="text" name="descriptions" id="descriptions" class="formbold-form-input"
+            placeholder=""></textarea>
         </div>
-      </div>
-    </section>
 
+        <div class="formbold-input-flex-submit">
+          <button class="formbold-btn" action="submit" name="submit">Submit</button>
+        </div>
 
-
-
-
-
-
-
-
-    
-    <section id="form-section">
-        <div class="formbold-main-wrapper">
-              <form action="" method="POST" enctype="multipart/form-data">
-                <div class="formbold-form-title">
-                  <h2 class="">Share Your Idea</h2>
-                  <p>
-                    Fill out this form to share your idea and get the process started.
-                    <br>
-                    Someone will reach out to you soon to help you begin cultivating what you need to know and answer your questions.
-                  </p>
-                </div>
-          
-                <div class="formbold-input-flex">
-                  <div>
-                    <label for="firstname" class="formbold-form-label">
-                      First Name
-                    </label>
-                    <input
-                      required="true"
-                      type="text"
-                      name="firstname"
-                      id="firstname"
-                      class="formbold-form-input"
-                    />
-                  </div>
-                  <div>
-                    <label for="lastname" class="formbold-form-label"> Last Name </label>
-                    <input
-                      required="true"
-                      type="text"
-                      name="lastname"
-                      id="lastname"
-                      class="formbold-form-input"
-                    />
-                  </div>
-                </div>
-          
-                <div class="formbold-input-flex">
-                  <div>
-                    <label for="email" class="formbold-form-label"> Email </label>
-                    <input
-                      required="true"
-                      type="email"
-                      name="email"
-                      id="email"
-                      class="formbold-form-input"
-                    />
-                  </div>
-                  <div>
-                    <label for="phone" class="formbold-form-label"> Phone Number </label>
-                    <input
-                      required="true"
-                      type="text"
-                      name="phone"
-                      id="phone"
-                      class="formbold-form-input"
-                    />
-                  </div>
-                </div>
-          
-                <div class="formbold-mb-3">
-                  <label for="community" class="formbold-form-label">
-                    Target Community
-                  </label>
-                  <input
-                    required="true"
-                    type="text"
-                    name="community"
-                    id="community"
-                    class="formbold-form-input"
-                  />
-                </div>
-          
-                <div class="formbold-mb-3">
-                  <label for="peopleg" class="formbold-form-label">
-                    Target People Group
-                  </label>
-                  <input
-                    required="true"
-                    type="text"
-                    name="peopleg"
-                    id="peopleg"
-                    class="formbold-form-input"
-                  />
-                </div>
-          
-                <div class="formbold-input-flex">
-                  <div>
-                    <label for="style" class="formbold-form-label"> Style </label>
-                    <input
-                      required="true"
-                      type="text"
-                      name="style"
-                      id="style"
-                      class="formbold-form-input"
-                      placeholder="Coffee, Sports, etc."
-                    />
-                  </div>
-                  <div>
-                    <label for="model" class="formbold-form-label"> Model </label>
-                    <input
-                      required="true"
-                      type="text"
-                      name="model"
-                      id="model"
-                      class="formbold-form-input"
-                      placeholder="Traditional, House, etc."
-                    />
-                  </div>
-                </div>
-
-                <div class="formbold-input-flex-last">
-                        <label for="descriptions" class="formbold-form-label"> Description </label>
-                        <textarea 
-                          required="true"
-                          type="text"
-                          name="descriptions"
-                          id="descriptions"
-                          class="formbold-form-input"
-                          placeholder=""
-                        ></textarea>
-                </div>
-
-                <div class="formbold-input-flex-submit">
-                    <button class="formbold-btn" action="submit" name="submit">Submit</button>
-                </div>
-
-                <?php
+        <?php
                     if(@$response == "Thank you, " . @$fname . "We will contact you shortly.\n Please check your email for your free access to the CCD Church Planting Web-Training Course."){
-                      ?><p>
-                        Thank you, <?php echo @$fname; ?>.
-                        <br>
-                        We will contact you shortly.
-                        <br>
-                        Please check your email for your free access to the CCD Church Planting Web-Training Course.
-                      </p><?php
+                      ?>
+        <p>
+          Thank you,
+          <?php echo @$fname; ?>.
+          <br>
+          We will contact you shortly.
+          <br>
+          Please check your email for your free access to the CCD Church Planting Web-Training Course.
+        </p>
+        <?php
                     } else {
                       ?>
-                        <p>
-                          <?php echo @$response; ?>
-                        </p>
-                      <?php
+        <p>
+          <?php echo @$response; ?>
+        </p>
+        <?php
                     }
                 ?>
 
-              </div>
-              </form>
-          </div>
+    </div>
+    </form>
+    </div>
 
 
-    </section>
+  </section>
 
 </body>
+
 </html>

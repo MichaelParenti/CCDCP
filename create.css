@@ -24,7 +24,7 @@ body{
     flex-shrink: 0;
     width: 100vw;
     height: auto;
-}
+ }
 
 
 
@@ -39,6 +39,7 @@ body{
 #some-text {
     font-size: clamp(14px, 8vw, 32px);
     text-align: center;
+    padding: 15px;
 }
 
 
@@ -47,81 +48,98 @@ body{
 
 section {
     display: flex;
+    flex-direction: column;
     height: fit-content;
 }
 #left {
-    width: 50vw;
-    height: 170vh;
+    width: 50%;
     padding: 50px;
-    /* position: relative; */
-    /* height: min-content; */
     position: relative;
-    /* overflow-y: auto; */
-}
-#left-inner {
-    position: relative;
-    top: 0px;
-    /* height: min-content; */
-}
-#left-inner > h2:nth-child(6) {
-    margin-bottom: 0px;
 }
 #left h2{
     color: white;
-    font-size: 2.5rem;
+    font-size: clamp(18px, 4vw, 48px);
+    text-wrap: nowrap;
 }
 #left h2 span {
-    font-size: 5rem;
+    font-size: clamp(24px, 8vw, 120px);
     padding: 10px;
 }
-@media only screen and (max-width: 1250px){
-    #left h2{
-        font-size: 2rem;
-    }
-    #left h2 span{
-        font-size: 4rem;
-    }
-}
-@media only screen and (max-width: 1075px){
-    #left h2{
-        font-size: 1.5rem;
-    }
-    #left h2 span{
-        font-size: 3rem;
-    }
-}
+
+
 
 #right {
-    width: 50vw;
+    width: 50%;
     padding: 50px;
-    /* height: 100vh; */
-    /* overflow: scroll; */
+
 }
-#right .panel {
-    padding: 25px;
+#right ul li{
+    color: white;
+    font-size: clamp(18px, 4vw, 32px);
+}
+.panel {
     border: solid 3px #0081b8;
     color: white;
     border-radius: 25px;
-    margin: 50px 0px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
 }
-#right .panel h3 {
-    color: #0081b8;
-    font-size: xx-large;
-    margin-top: 0px;
+div.panel:nth-child(1){
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/pexels-pixabay-261719.jpg');
+    background-size: cover;
+    background-position: center;
 }
-#right .panel ul li {
-    font-size: large;
+div.panel:nth-child(2){
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/Image\ 2.jpg');
+    background-size: cover;
+    background-position: center;
 }
-@media only screen and (max-width: 850px){
-    #left {
-        height: fit-content;
-        width: 80vw;
-    }
-    #right {
-        width: 80vw;
-    }
-    section {
-        display: flex;
+div.panel:nth-child(3){
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/People.jpg');
+    background-size: cover;
+    background-position: center;
+}
+div.panel:nth-child(4){
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/organization-chart-2556925_1920.jpg');
+    background-size: cover;
+    background-position: center;
+}
+div.panel:nth-child(5){
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/pexels-fauxels-3184418.jpg');
+    background-size: cover;
+    background-position: center;
+}
+div.panel:nth-child(6){
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/pexels-daniel-574177.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (max-width: 1100px){
+    .panel{
         flex-direction: column;
+    }
+    #left h2{
+        text-align: center;
+        width: 100%;
+    }
+    #left {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 550px){
+    #right{
+        width: 80%;
+    }
+    #left h2 span {
+        padding: 10px 5px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .panel{
+        margin: 20px;
     }
 }
