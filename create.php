@@ -182,7 +182,7 @@
 
 
   <div id="img-container">
-    <img id="head-pic" src="images/Create pic.jpg">
+    <img id="head-pic" src="images/CREATE.jpg">
   </div>
 
 
