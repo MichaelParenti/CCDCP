@@ -262,7 +262,7 @@
 
 
 
-        <div class="card" style="background-image: url('launch-imgs/Shirt.jpg');">
+        <div class="card" style="background-image: url('launch-imgs/Shirt.png');">
             <div id="description">
                 <h1>T-Shirts</h1>
                 <h3>Be a walking billboard for your church.</h3>
