@@ -288,7 +288,7 @@
 
 
 
-        <div class="card" style="background-image: url('launch-imgs/Block\ Party\ pic.jpg');">
+        <div class="card" style="background-image: url('launch-imgs/pexels-ron-lach-10044373.jpg');">
             <div id="description">
                 <h1>Block Parties</h1>
                 <h3>Engage a block of neighbors and attract others.</h3>

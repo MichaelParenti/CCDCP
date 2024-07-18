@@ -251,7 +251,7 @@
         <div class="card" style="background-image: url('Imagine - Church Themes/pexels-mart-production-8078366.jpg');">
             <div id="description">
                 <h1>Compassion</h1>
-                <h3>Do you know people in the community in need?</h3>
+                <h3>Know people in the community in need?</h3>
                 <div id="hr"></div>
                 <p>A compassion church reaches out to the community with a strong compassionate outreach as a means for making disciples. The church can provide necessities like food or clothing as well as lead in times of worship and discipleship. Click the link for an example of a compassion church.</p>
                 <a href="https://homelesschurch.org/                " target="_blank"><button>Learn More</button></a>
