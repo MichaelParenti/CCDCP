@@ -280,7 +280,7 @@
                 <h1>Service Projects</h1>
                 <h3>Become part of the community.</h3>
                 <div id="hr"></div>
-                <p>AYou don’t want “from” the community; you want to be part of the community. Collect food, wash cars,
+                <p>You don’t want “from” the community; you want to be part of the community. Collect food, wash cars,
                     shovel snow, pick up trash, etc. to help make the community a better place. </p>
                 <br>
             </div>
