@@ -215,7 +215,7 @@
         <div class="card" style="background-image: url('Imagine\ -\ Church\ Themes/table.png');">
             <div id="description">
                 <h1>Table</h1>
-                <h3>Know anyone who enjoys basketball?</h3>
+                <h3>Know anyone who enjoys eating meals together?</h3>
                 <div id="hr"></div>
                 <p>A table church seeks to interact in the lives of others by fellowshipping with them, feeding them, and helping them become followers of Jesus Christ. Gathering times can take place around a table(s) with discussion and fellowship. Click the link for an example of a table church.                </p>
                 <a href="https://www.youtube.com/watch?v=5_DQRFDWGxM" target="_blank"><button>Learn More</button></a>
@@ -239,7 +239,7 @@
         <div class="card" style="background-image: url('Imagine\ -\ Church\ Themes/pexels-cottonbro-4691567.jpg');">
             <div id="description">
                 <h1>Board Game</h1>
-                <h3>Know anyone who enjoys basketball?</h3>
+                <h3>Know anyone who enjoys playing board games?</h3>
                 <div id="hr"></div>
                 <p>A board game church is based around the thrill of playing games. It can gather in a home or community center. Times of worship, discipleship, and outreach can take place in traditional or organic ways. Click the link for ideas about board games and church.                </p>
                 <a href="https://thinkchristian.net/faith-fellowship-and-board-games                " target="_blank"><button>Learn More</button></a>
@@ -251,7 +251,7 @@
         <div class="card" style="background-image: url('Imagine - Church Themes/pexels-mart-production-8078366.jpg');">
             <div id="description">
                 <h1>Compassion</h1>
-                <h3>Know anyone who enjoys basketball?</h3>
+                <h3>Do you know people in the community in need?</h3>
                 <div id="hr"></div>
                 <p>A compassion church reaches out to the community with a strong compassionate outreach as a means for making disciples. The church can provide necessities like food or clothing as well as lead in times of worship and discipleship. Click the link for an example of a compassion church.</p>
                 <a href="https://homelesschurch.org/                " target="_blank"><button>Learn More</button></a>
@@ -263,7 +263,7 @@
         <div class="card" style="background-image: url('Imagine\ -\ Church\ Themes/coffee-6984075_1280.jpg');">
             <div id="description">
                 <h1>Coffee</h1>
-                <h3>Know anyone who enjoys basketball?</h3>
+                <h3>Know anyone who really loves coffee?</h3>
                 <div id="hr"></div>
                 <p>A church can meet in a coffee shop or home and use coffee or tea as a means of making disciples. This church can create an informal format that generates dialogue that still can incorporate times of worship and intentional discipleship. Click the link for an example of a coffee church.                </p>
                 <a href="https://www.youtube.com/watch?v=fFH3ZkTbxc8                " target="_blank"><button>Learn More</button></a>
@@ -275,7 +275,7 @@
         <div class="card" style="background-image: url('Imagine - Church Themes/pexels-pixabay-159369.jpg');">
             <div id="description">
                 <h1>Gaming</h1>
-                <h3>Know anyone who enjoys basketball?</h3>
+                <h3>Know anyone who enjoys online gaming?</h3>
                 <div id="hr"></div>
                 <p>A gaming church can meet virtually or in person. It can appeal to a variety of gamers and include a variety of platforms for discipleship and outreach. Click the link for an example of a gaming church.                </p>
                 <a href="https://www.godsquadchurch.com/" target="_blank"><button>Learn More</button></a>
@@ -287,7 +287,7 @@
         <div class="card" style="background-image: url('Imagine - Church Themes/pexels-jopwell-2422290.jpg');">
             <div id="description">
                 <h1>Recovery</h1>
-                <h3>Know anyone who enjoys basketball?</h3>
+                <h3>Know anyone struggling with an addiction?</h3>
                 <div id="hr"></div>
                 <p>A recovery church can target those who are recovering from an addiction and their families. Similar to a support group, a recovery church can include times of sharing, encouragement, and accountability but also times of worship and outreach. Click the link for an example of a recovery church.                 </p>
                 <a href="https://www.recovery.church/                " target="_blank"><button>Learn More</button></a>
@@ -299,7 +299,7 @@
         <div class="card" style="background-image: url('Imagine - Church Themes/old-people-616718_1280.jpg');">
             <div id="description">
                 <h1>Seniors</h1>
-                <h3>Know anyone who enjoys basketball?</h3>
+                <h3>Know anyone who is part of a retirement community?</h3>
                 <div id="hr"></div>
                 <p>A church can meet in a retirement community to offer worship services and discipleship. Click the link for ideas for assisted living churches.                </p>
                 <a href="https://spiritualeldercare.com/church-services/                " target="_blank"><button>Learn More</button></a>
@@ -311,7 +311,7 @@
         <div class="card" style="background-image: url('Imagine - Church Themes/pexels-mateusz-dach-99805-581295.jpg');">
             <div id="description">
                 <h1>Biker</h1>
-                <h3>Know anyone who enjoys basketball?</h3>
+                <h3>Know anyone who enjoys riding motorcycles?</h3>
                 <div id="hr"></div>
                 <p>A church can appeal to bikers. It can meet in a variety of settings and incorporate worship, discipleship, and outreach in a way that best fits their congregation. Click the link for an example of a biker church.                 </p>
                 <a href="https://www.facebook.com/salvageyardbikerchurch/                " target="_blank"><button>Learn More</button></a>
@@ -323,7 +323,7 @@
         <div class="card" style="background-image: url('Imagine\ -\ Church\ Themes/pexels-cottonbro-8041993.jpg');">
             <div id="description">
                 <h1>MartialArts / Fitness</h1>
-                <h3>Know anyone who enjoys basketball?</h3>
+                <h3>Know anyone who is really into fitness or martial arts?</h3>
                 <div id="hr"></div>
                 <p>A fitness church can meet in a gym or any open area and appeal to anyone who desires to move and live well. A church can help people train physically, emotionally, and spiritually. Click the link for more information about faith and fitness.                </p>
                 <a href="https://faithandfitness.net/why-the-church-should-be-doing-fitness/                " target="_blank"><button>Learn More</button></a>
@@ -335,7 +335,7 @@
         <div class="card" style="background-image: url('Imagine - Church Themes/pexels-pixabay-159644.jpg');">
             <div id="description">
                 <h1>Art</h1>
-                <h3>Know anyone who enjoys basketball?</h3>
+                <h3>Know anyone who is artistic or creative?</h3>
                 <div id="hr"></div>
                 <p>An arts and crafts church can focus on the use of God-given artistic and creative talents. A church can create, worship, and disciple all at the same time. Click the link for a sample craft ministry.                </p>
                 <a href="https://driftlessministry.org/crafting-hands/                " target="_blank"><button>Learn More</button></a>
@@ -347,7 +347,7 @@
         <div class="card" style="background-image: url('Imagine - Church Themes/pexels-pavel-danilyuk-7234389.jpg');">
             <div id="description">
                 <h1>Cinema</h1>
-                <h3>Know anyone who enjoys basketball?</h3>
+                <h3>Know anyone who loves watching movies?</h3>
                 <div id="hr"></div>
                 <p>A cinema or movie church seeks to either gather in a movie theatre or meet in another facility but use movies as the platform of discussion by watching full movies or movie clips to discuss the word of God. Click the link for a review of a church meeting in a movie theatre.</p>
                 <a href="https://www.facebook.com/thisishilltop/videos/1012286099291457/" target="_blank"><button>Learn More</button></a>
