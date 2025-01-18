@@ -190,7 +190,7 @@
   <h1 id="title">Create</h1>
 
   <p id="some-text">
-    Going through the “cultivate” process will prepare a church planter to CREATE an action plan.
+    Going through the “connecting” process will prepare a church planter to CREATE an action plan.
     <br>
     He/she will receive a guide to walk through the creation process.
     <br>
