@@ -201,7 +201,7 @@
         <div id="one">
             <div class="panel">
                 <h1>1. &nbsp; Imagine</h1>
-                <p>Begin the process of planting a church / ministry by IMAGINING what could be. Identify a community and a specific social group the mission will seek to reach. Select a theme and model that would be most impactful in that setting. Submit your idea to get the process started and move to the second stage of cultivating your vision.                </p>
+                <p>Begin the process of planting a church / ministry by IMAGINING what could be. Identify a community and a specific social group the mission will seek to reach. Select a theme and model that would be most impactful in that setting. Submit your idea to get the process started and move to the second stage of connecting your vision.                </p>
             </div>
         </div>
 
@@ -246,7 +246,7 @@
                   <p>
                     Fill out this form to share your idea and get the process started.
                     <br>
-                    Someone will reach out to you soon to help you begin cultivating what you need to know and answer your questions.
+                    Someone will connect with you soon to help guide you through the steps.
                   </p>
                 </div>
           
