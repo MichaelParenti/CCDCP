@@ -1,4 +1,4 @@
-onnect<?php require("script.php"); ?>
+<?php require("script.php"); ?>
 
 <?php
 
