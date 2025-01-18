@@ -192,7 +192,7 @@
             <br>
             See below for more details about a church style and church model.
             <br>
-            When you have a general answer to these four questions, please complete the form at the bottom of the page to begin cultivating your ideas with the help of a coach, a team of planters, web-based training, conferences, and more.
+            When you have a general answer to these four questions, please complete the form at the bottom of the page to begin connecting with the help of a coach, a team of planters, conferences, and more.
             <br>
         </p>
     </section>
