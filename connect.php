@@ -215,7 +215,7 @@
             <div class="right">
                 <h1>Attend Church Planting Conferences / Workshops</h1>
                 <ul>
-                    <li>Everyone in the Cultivating process will receive updates about available conferences being held throughout the country.</li>
+                    <li>Everyone in the Connecting process will receive updates about available conferences being held throughout the country.</li>
                     <li>These are great opportunities to not only gain more information but also meet other church planters in person.</li>
                     <li>Those in the process will also receive information about further training opportunities that may help in the development of a plan.</li>
                 </ul>
