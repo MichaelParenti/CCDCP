@@ -173,7 +173,7 @@
     </nav>
     
 
-    <video src="videos/Church Planting Home.mp4" autoplay loop muted></video>
+    <video src="videos/Home Page Video.mp4" autoplay loop muted></video>
 
 
     <img src="all-kinds.png" id="all-kinds">
