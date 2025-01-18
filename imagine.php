@@ -524,7 +524,7 @@
                   <p>
                     Fill out this form to share your idea and get the process started.
                     <br>
-                    Someone will reach out to you soon to help you begin cultivating what you need to know and answer your questions.
+                    Someone will connect with you soon to help guide you through the steps.
                   </p>
                 </div>
           
