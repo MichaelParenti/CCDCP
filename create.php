@@ -1,4 +1,4 @@
-<?php require("script.php"); ?>
+onnect<?php require("script.php"); ?>
 
 <?php
 
@@ -153,7 +153,7 @@
         <button class="dropbtn">5 Stages</button>
         <div id="myDropdown" class="dropdown-content">
           <a href="http://msparenti.com/CCDCP/imagine.php">Imagine</a>
-          <a href="http://msparenti.com/CCDCP/cultivate.php">Cultivate</a>
+          <a href="http://msparenti.com/CCDCP/connect.php">Connect</a>
           <a href="http://msparenti.com/CCDCP/create.php">Create</a>
           <a href="http://msparenti.com/CCDCP/build.php">Build</a>
           <a href="http://msparenti.com/CCDCP/launch.php">Launch</a>
@@ -169,7 +169,7 @@
         <label>5 Stages</label>
         <div id="list">
           <a class="list" href="http://msparenti.com/CCDCP/imagine.php">Imagine</a>
-          <a class="list" href="http://msparenti.com/CCDCP/cultivate.php">Cultivate</a>
+          <a class="list" href="http://msparenti.com/CCDCP/connect.php">Connect</a>
           <a class="list" href="http://msparenti.com/CCDCP/create.php">Create</a>
           <a class="list" href="http://msparenti.com/CCDCP/build.php">Build</a>
           <a class="list" href="http://msparenti.com/CCDCP/launch.php">Launch</a>
