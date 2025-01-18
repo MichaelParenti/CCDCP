@@ -208,8 +208,8 @@
         
         <div id="two">
             <div class="panel">
-                <h1>2. &nbsp; Cultivate</h1>
-                <p>CULTIVATE by connecting to a coach/mentor as well as a cohort of church planters who are in the process of preparing or who have already planted a church. Attend a “Discovery Weekend” to learn more about your skillset. Work through a self-paced web-based training, attend available conferences, and visit another church plant.                </p>
+                <h1>2. &nbsp; Connect</h1>
+                <p>CONNECT with a coach/mentor as well as a cohort of church planters who are in the process of preparing or who have already planted a church. Join with other church planters at Exponential church planting conference in November.                </p>
             </div>
         </div>
 

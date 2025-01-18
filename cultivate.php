@@ -125,7 +125,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cultivate</title>
+    <title>Connect</title>
     <link rel="stylesheet" href="cultivate.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="form.css">
@@ -186,9 +186,9 @@
             <div class="right">
                 <h1>Connect with a Coach/Mentor</h1>
                 <ul>
-                    <li>Once someone completes the form to share their idea for a church plant, the cultivating process begins.</li>
+                    <li>Once someone completes the form to share their idea for a church plant, the connecting process begins.</li>
                     <li>A representative from the District Ministry Strategy Team (DMST) will contact you and connect you with a coach/mentor.</li>
-                    <li>The coach will be an experienced church planter who will help through the cultivating, creating, building, and launching process.</li>
+                    <li>The coach will be an experienced church planter who will help through the connecting, creating, building, and launching process.</li>
                 </ul>
             </div>
         </div>
@@ -206,22 +206,13 @@
             </div>
         </div>
 
-        <div id="step-three">
-            <div class="left">
-                <img src="images/Web Training pic.jpg" alt="">
+        
+        
+        <div id="step-three">            
+          <div class="left">
+                <img src="images/Conference pic.jpg" alt="">
             </div>
             <div class="right">
-                <h1>Navigate through a Web-based Training</h1>
-                <ul>
-                    <li>As soon as someone submits their idea, they receive an email with access to online training resources.</li>
-                    <li>The training is comprised of videos recorded by church planters about church planting, building teams, and launching.</li>
-                    <li>Each video includes a downloadable worksheet to process and develop the thoughts shared in each video.</li>
-                </ul>
-            </div>
-        </div>
-        
-        <div id="step-four">
-            <div class="left">
                 <h1>Attend Church Planting Conferences / Workshops</h1>
                 <ul>
                     <li>Everyone in the Cultivating process will receive updates about available conferences being held throughout the country.</li>
@@ -229,26 +220,12 @@
                     <li>Those in the process will also receive information about further training opportunities that may help in the development of a plan.</li>
                 </ul>
             </div>
-            <div class="right">
-                <img src="images/Conference pic.jpg" alt="">
-            </div>
+
         </div>
         
-        <div id="step-five">
-            <div class="left">
-                <img src="images/Assessment pic.jpg" alt="">
-            </div>
-            <div class="right">
-                <h1>Participate in “Discovery Weekend” Skills Assessment</h1>
-                <ul>
-                    <li>An annual event is held in the Chicagoland area for those who sense a call to pastor or plant a church.</li>
-                    <li>This weekend retreat will help planters understand themselves better by identifying their personalities, strengths, weaknesses, and gifts.</li>
-                    <li>It is also an encouraging time to meet others who are early in the process of cultivating their call to reach others for Jesus.</li>
-                </ul>
-            </div>
-        </div>
+     
         
-        <div id="step-six">
+        <div id="step-four">
             <div class="left">
                 <h1>Visit another Church Plant for a Hands-on Experience</h1>
                 <ul>

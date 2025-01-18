@@ -187,7 +187,7 @@
     <h5 id="styles">
         <p>
             Now for the exciting part! The call of God is to go into a community to love neighbors and share the good
-            news. The imagine, cultivate, create, and build stages were all in preparation for launching a new ministry
+            news. The imagine, connect, create, and build stages were all in preparation for launching a new ministry
             in a community. There are so many ways to connect with your neighbors.
         </p>
     </h5>
