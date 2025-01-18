@@ -190,7 +190,7 @@
     <h1 id="title">Build</h1>
 
     <p id="some-text">
-      The fourth stage of the church planting process is to BUILD a launch team. During the web-based training and the creation of the plan, one will learn more about recruiting and training a launch team as well as generate a list of prospective members of the team. Now, a church planter will begin this process.
+      The fourth stage of the church planting process is to BUILD a launch team. During the creation of the plan, one will learn more about recruiting and training a launch team as well as generate a list of prospective members of the team. Now, a church planter will begin this process.
     </p>
 
 
