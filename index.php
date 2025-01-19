@@ -246,7 +246,7 @@
                   <p>
                     Fill out this form to share your idea and get the process started.
                     <br>
-                    Someone will connect with you soon to help guide you through the steps.
+                    Someone will connect you soon to help guide you through the steps.
                   </p>
                 </div>
           
