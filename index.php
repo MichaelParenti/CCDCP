@@ -396,7 +396,7 @@
         document.location.href = "http://msparenti.com/CCDCP/imagine.php";
       }
       document.getElementById('two').onclick = () => {
-        document.location.href = "http://msparenti.com/CCDCP/cultivate.php";
+        document.location.href = "http://msparenti.com/CCDCP/connect.php";
       }
       document.getElementById('three').onclick = () => {
         document.location.href = "http://msparenti.com/CCDCP/create.php";
