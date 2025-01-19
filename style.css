@@ -78,7 +78,7 @@ hr{
     background-position: center;
 }
 #two .panel{ 
-    background: linear-gradient(to top, rgb(8, 51, 69, 0.5), rgb(8, 51, 69, 0.5)), url('/CCDCP/images/Screenshot CCDCP.png');
+    background: linear-gradient(to top, rgb(8, 51, 69, 0.5), rgb(8, 51, 69, 0.5)), url('/CCDCP/images/Screenshot\ CCDCP.png');
     /* background-color: rgba(22, 22, 22, 0.8); */
     /* background-image: url('images/image.png'); */
     position: relative;
