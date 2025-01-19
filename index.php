@@ -173,7 +173,7 @@
     </nav>
     
 
-    <video src="videos/Church Planting Home.mp4" autoplay loop muted></video>
+    <video src="videos/Home Page Video.mp4" autoplay loop muted></video>
 
 
     <img src="all-kinds.png" id="all-kinds">
@@ -246,7 +246,7 @@
                   <p>
                     Fill out this form to share your idea and get the process started.
                     <br>
-                    Someone will connect with you soon to help guide you through the steps.
+                    Someone will connect you soon to help guide you through the steps.
                   </p>
                 </div>
           
@@ -396,7 +396,7 @@
         document.location.href = "http://msparenti.com/CCDCP/imagine.php";
       }
       document.getElementById('two').onclick = () => {
-        document.location.href = "http://msparenti.com/CCDCP/cultivate.php";
+        document.location.href = "http://msparenti.com/CCDCP/connect.php";
       }
       document.getElementById('three').onclick = () => {
         document.location.href = "http://msparenti.com/CCDCP/create.php";

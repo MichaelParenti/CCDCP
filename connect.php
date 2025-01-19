@@ -175,7 +175,7 @@
     </nav>
 
 
-    <video src="videos/Cultivate-CCDCP.mp4" autoplay loop muted></video>
+    <video src="videos/Connect page video.mp4" autoplay loop muted></video>
 
 
     <section>
