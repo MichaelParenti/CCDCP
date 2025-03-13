@@ -1,5 +1,5 @@
 body{
-    background: rgb(22, 22, 22);
+    background: white;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -10,7 +10,7 @@ video{
     width: 100vw;
     height: auto;
     position: relative;
-    top: 120px;
+    top: 60px;
     margin-bottom: 150px;
 }
 @media only screen and (max-width: 1200px){
