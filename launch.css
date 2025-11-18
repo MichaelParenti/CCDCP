@@ -1,9 +1,10 @@
 body{
-    background: rgb(22, 22, 22);
+    background: white;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     font-family: 'Arial Narrow Bold', sans-serif;
+    color: black;
 }
 
 
@@ -34,7 +35,7 @@ body{
     max-width: 1400px;
     height: auto;
     background-color: #083345;
-    color: white;
+    color: black;
     padding: 20px;
     background-image: linear-gradient(to top, rgba(8, 51, 69, 0.8), rgba(8, 51, 69, 0.8) ), url('man-2179326_1920.jpg');
     background-size: cover;
@@ -50,14 +51,14 @@ b{
 #styles-title{
     font-size: 48px;
     text-align: center;
-    color: white;
-    margin: 150px 0px;
+    color: black;
+    margin: 50px 0px;
 }
 #styles{
     text-align: center;
-    color: white;
+    color: black;
     font-size: 24px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
     padding: 0px 50px;
 }
 

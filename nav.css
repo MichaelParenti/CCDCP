@@ -1,3 +1,10 @@
+  /* Logo Images */
+  .nav-image {
+    height: 50px;
+    width: auto;
+    transition: height 0.3s ease-in-out, background 0.3s ease-in-out;
+  }
+
 #nav_h1{
     margin: 0px 0px;
     position: fixed;

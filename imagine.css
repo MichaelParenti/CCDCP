@@ -1,8 +1,9 @@
 body{
-    background: rgb(22, 22, 22);
+    background: white;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    color: black;
     font-family: 'Arial Narrow Bold', sans-serif;
 }
 
@@ -44,14 +45,14 @@ b{
 #styles-title{
     font-size: 48px;
     text-align: center;
-    color: white;
-    margin: 150px 0px;
+    color: black;
+    margin: 50px 0px;
 }
 #styles{
     text-align: center;
-    color: white;
+    color: black;
     font-size: 24px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 
